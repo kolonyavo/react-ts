@@ -1,0 +1,70 @@
+body{
+    background-color: whitesmoke;
+}
+
+p{
+    font-size: larger;
+}
+
+.flex{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    font-size: larger;
+}
+
+.flex-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+    font-size: larger;
+    padding-top: 12%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.espace{
+    margin-bottom: 1%;
+}
+
+.task{
+    width: 35em;
+    height: 10%;
+}
+
+.btn{
+    margin-left: 2%;
+    width: 7vw;
+}
+
+.btnmini{
+    margin-left: 2%;
+    width: 1vw;
+}
+
+
+.todoList{
+    margin-left: 2%;
+    border-color: black;
+    border: solid;
+    width: 30%;
+    text-align: center;
+    padding-left: auto;
+    height: 55vh;
+}
+
+.content{
+    border-color: black;
+    border-top: solid;
+    width: 98%;
+    text-align: start;
+    padding-left: 2%;
+}
